@@ -1,0 +1,20 @@
+div.contactAGauche {
+	padding: 10px;
+	padding-top: 20px;
+	padding-left: 30px;
+
+	width: 31%;
+
+	float: left;
+/*	display: inline;*/
+}
+
+div.contactADroite {
+	padding: 10px;
+
+	width: 58%;
+	height: 100%;
+
+	float: right;
+/*	display: inline;*/
+}

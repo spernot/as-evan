@@ -1,0 +1,37 @@
+---
+#
+# Projet Tchad 2015
+#
+- projet:
+	titre: Projet Tchad 2015
+	description: blablabla
+	dateDebut: ~
+	echeance: 01/06/2015
+	repertoire: Tchad2015
+	presentation:
+		page1:
+			image: Ecran1.png
+			lien:
+				descriptif: Pour toutes les actualités/informations concernant le projet Tchad, veuillez suivre le lien ci-contre
+				url: https://www.facebook.com/pages/Projet-Tchad-Groupe-de-jeunes-Assembl%C3%A9e-%C3%A9vang%C3%A9lique-Neudorf/625183710909955?ref_type=bookmark
+		page2:
+			image: Ecran2.png
+		page3:
+			image: Ecran3.png
+		page4:
+			image: Ecran4.png
+		page5:
+			image: Ecran5.png
+		page6:
+			image: Ecran6.png
+			titre: ~
+			contact: ~
+			nouvelles:
+				- {date: 16/05/2014, descriptif: Mise en ligne du projet sur le site de l'église}
+#			avancement:
+#				descriptif: Recueillement des dons en euros
+#				objectif: 2500
+#				actuel: 500
+			lien:
+				descriptif: Pour toutes les actualités/informations concernant le projet Tchad, veuillez suivre le lien ci-contre
+				url: https://www.facebook.com/pages/Projet-Tchad-Groupe-de-jeunes-Assembl%C3%A9e-%C3%A9vang%C3%A9lique-Neudorf/625183710909955?ref_type=bookmark

@@ -1,0 +1,5 @@
+Localisation : <br/>
+STUDIO SAGLIO <br/>
+Zone artisanale PLAINE DES BOUCHERS <br/>  
+16 rue Saglio, 67100 Strasbourg.  <br/>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Studio+Saglio,+Rue+Saglio,+Strasbourg&amp;aq=0&amp;oq=studio+saglio&amp;sll=48.599123,7.587081&amp;sspn=1.607504,4.22699&amp;ie=UTF8&amp;hq=Studio+Saglio,&amp;hnear=Rue+Saglio,+67100+Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;ll=48.557182,7.74004&amp;spn=0.019883,0.036564&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=Studio+Saglio,+Rue+Saglio,+Strasbourg&amp;aq=0&amp;oq=studio+saglio&amp;sll=48.599123,7.587081&amp;sspn=1.607504,4.22699&amp;ie=UTF8&amp;hq=Studio+Saglio,&amp;hnear=Rue+Saglio,+67100+Strasbourg,+Bas-Rhin,+Alsace&amp;t=m&amp;ll=48.557182,7.74004&amp;spn=0.019883,0.036564&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>

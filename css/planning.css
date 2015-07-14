@@ -1,0 +1,99 @@
+div.entreePlanning {
+	border-top: 1px solid #FEBD0B; 
+	border-left: 0;
+	margin-left: 30px; 
+	margin-right: 1em;
+	min-height: 4em;
+}
+
+span.nomJourGauche {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+div.jourGauche,
+div.jourGaucheDimanche {
+	float: left; 
+	display: block; 
+	min-width: 100px;
+	clear: left;
+	
+	margin-right: 10px;
+	
+	background-color: #FEBD0B; 
+		 
+	text-align: center;
+	font-size: 1.5em;
+}
+
+div.iconeGauche {
+	display: inline;
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+
+div.iconeDroite {
+	display: inline;
+	float: right;
+	width: 50px;
+	text-align: center;
+}
+
+div.contenu,
+div.contenuDimanche {
+	
+/*	display: inline; */
+/*	float: left;*/
+	
+	padding-top: 5px;
+/*	margin-left: 10px;*/
+	
+/*	float: left;*/
+/*	clear: right;*/
+	
+	text_align: left;
+/*	clear: right;*/
+		
+}
+
+
+div.entreePlanningDimanche {
+	border-top: 1px solid #5385FF; 
+	border-left: 0;
+	margin-left: 30px; 
+	margin-right: 1em;
+	min-height: 4em;
+}
+
+span.nomJourGaucheDimanche {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+span.sautDeLigne {
+	font-size: 0.8em;
+}
+
+div.jourGaucheDimanche {
+/*	float: left; */
+/*	display: block; */
+/*	min-width: 100px;*/
+/*	clear: left;*/
+/*	*/
+	background-color: #5385FF; 
+	color: white;
+	 
+/*	text-align: center;*/
+/*	font-size: 1.5em;*/
+}
+
+div.contenuDimanche {
+	color: #5385FF; 
+}
+
+div.navigation {
+	margin-left: 1em; 
+	margin-right: 1em;
+	
+}

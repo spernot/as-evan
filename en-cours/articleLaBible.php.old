@@ -1,0 +1,292 @@
+<?php
+
+/**
+ *
+ *
+ * @version $Id$
+ * @copyright 2011
+ */
+
+// Je précise sur quelle page je suis
+$_SESSION['pageActuelle'] = 'articles';
+
+if (!isset($_SESSION['ContexteUtilisateur'])) {
+	header("location: index.php");
+	exit; 
+}
+
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<?php
+	include('./import/_meta.php');
+	?>
+
+	<title>Assembl&eacute;e &eacute;vang&eacute;lique du Neudorf</title>
+
+	<link rel="stylesheet" href="./css/commun.css" >
+	<link rel="stylesheet" href="./css/articles.css" >
+
+	<script src="./js/articleUtil.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div class="cadrePrincipal">
+
+
+		<?php
+
+		include('./import/_entete.php');
+		include('./import/_menu.php');
+
+		?>
+
+		<div class="titrePage">
+			La Bible
+		</div>
+
+		<div class="titreArticle">
+			Les fondements de la Bible
+		</div>
+
+		<div class="texteMilieu">
+			<a class="lien" href="./PDF/articles/la_bible.pdf" target="_blank">Version imprimable</a>
+			<br/>
+			<br/>
+			La bible n'est pas un livre mais un recueil de 66 livres ecrits pas environ 40 auteurs sur une p&eacute;riode de 1500 ans.<br/>
+			On peut distinguer trois bibles:
+			<ul>
+				<li><span class="souligne">Juive</span> ne comprenant que l'AT </li>
+				<li><span class="souligne">Protestante</span> comprenant l'AT et le NT</li>
+				<li><span class="souligne">Catholique</span> ayant en plus les livres apocryphes c"est &agrave; dire non inspir&eacute; de Dieu</li>
+			</ul>
+			<span class="chapitre1">Inspiration divine</span><br/>
+			<div class="chapitre1">
+				La Bible n'est pas un livre comme les autres. Elle est plus qu'un livre de sagesse, de morale ou d'histoire. Elle est comme elle le dit tant de fois "la parole de Dieu".<br/>
+				<span class="souligne">Ex 17:14</span>&nbsp;<span class="citation"> L'Eternel dit &agrave; Mo&iuml;se, Ecris cela dans le livre, pour que le souvenir s'en conserve...<a href="javascript:void(0);" class="contexte" onclick="javascript:montrerContexte('contexte1'); return false;">[contexte]</a></span>
+				<div class="contexteBiblique" id="contexte1">
+					Exode 17<br/>
+					     12. Les mains de Moïse étant fatiguées, ils prirent une pierre qu'ils placèrent sous lui, et il s'assit dessus. Aaron et Hur soutenaient ses mains, l'un d'un côté, l'autre de l'autre; et ses mains restèrent fermes jusqu'au coucher du soleil.<br/>
+						 13. Et Josué vainquit Amalek et son peuple, au tranchant de l'épée.<br/>
+						 <span class="gras">14. L'Éternel dit à Moïse: Écris cela dans le livre, pour que le souvenir s'en conserve, et déclare à Josué que j'effacerai la mémoire d'Amalek de dessous les cieux.</span><br/>
+						 15. Moïse bâtit un autel, et lui donna pour nom: l'Éternel ma bannière.<br/>
+						 16. Il dit: Parce que la main a été levée sur le trône de l'Éternel, il y aura guerre de l'Éternel contre Amalek, de génération en génération.<br/>
+				</div>
+				<br/>
+				Dans l'AT, on trouve les expressions suivantes:
+				<ul>
+					<li><span class="citation">La Parole de l'Eternel</span>: 212 fois</li>
+					<li><span class="citation">Ecoutez les paroles de l'Eternel</span>: 14 fois</li>
+					<li><span class="citation">Ainsi parle l'Eternel</span>: 275 fois</li>
+					<li><span class="citation">Parole de Dieu</span>: 5 fois</li>
+					<li><span class="citation">L'Eternel me dit</span>: 37 fois</li>
+				</ul>
+				<span class="souligne">Josu&eacute; 3:9</span>&nbsp;<span class="citation">Approchez et &eacute;coutez les parole de l'Eternel, votre Dieu.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte2')">[contexte]</a></span> Voir <a class="lien" href="http://www.info-bible.org/lsg/38.Zacharie.html#1.3" target="_blank">Zac 1:3</a>, <a class="lien" href="http://www.info-bible.org/lsg/24.Jeremie.html#11.6" target="_blank">J&eacute;r 11:6</a>.<br/>
+				<div class="contexteBiblique" id="contexte2">
+					Josu&eacute; 3<br/>
+						7. L'Éternel dit à Josué: Aujourd'hui, je commencerai à t'élever aux yeux de tout Israël, afin qu'ils sachent que je serai avec toi comme j'ai été avec Moïse.<br/>
+						8. Tu donneras cet ordre aux sacrificateurs qui portent l'arche de l'alliance: Lorsque vous arriverez au bord des eaux du Jourdain, vous vous arrêterez dans le Jourdain.<br/>
+						<span class="gras">9. Josué dit aux enfants d'Israël: Approchez, et écoutez les paroles de l'Éternel, votre Dieu.</span><br/>
+						10. Josué dit: A ceci vous reconnaîtrez que le Dieu vivant est au milieu de vous, et qu'il chassera devant vous les Cananéens, les Héthiens, les Héviens, les Phéréziens, les Guirgasiens, les Amoréens et les Jébusiens:<br/>
+						11. voici, l'arche de l'alliance du Seigneur de toute la terre va passer devant vous dans le Jourdain.
+				</div>
+				Le NT est clair &agrave; ce sujet:<br/>
+				<span class="souligne">Jean 7:16</span>&nbsp;<span class="citation">Ma (J&eacute;sus) doctrine n'est pas de moi mais de Celui qui m'a envoy&eacute;.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte3'); return false;">[contexte]</a></span>&nbsp;Voir <a class="lien" href="http://www.info-bible.org/lsg/46.1Corinthiens.html#11.23" target="_blank">1 Cor 11:23</a>, <a class="lien" href="http://www.info-bible.org/lsg/52.1Thessaloniciens.html#4.5" target="_blank">1 Th 4:15</a>, <a class="lien" href="http://www.info-bible.org/lsg/49.Ephesiens.html#3.3" target="_blank">Eph 3:3.</a><br/>
+				<div class="contexteBiblique" id="contexte3">
+					Jean 7<br/>
+						14. Vers le milieu de la fête, Jésus monta au temple. Et il enseignait.<br/>
+						15. Les Juifs s'étonnaient, disant: Comment connaît-il les Écritures, lui qui n'a point étudié?<br/>
+						<span class="gras">16. Jésus leur répondit: Ma doctrine n'est pas de moi, mais de celui qui m'a envoyé.</span><br/>
+						17. Si quelqu'un veut faire sa volonté, il connaîtra si ma doctrine est de Dieu, ou si je parle de mon chef.
+						18. Celui qui parle de son chef cherche sa propre gloire; mais celui qui cherche la gloire de celui qui l'a envoyé, celui-là est vrai, et il n'y a point d'injustice en lui.
+				</div>
+				La pr&eacute;dication de J&eacute;sus et des ap&ocirc;tres &eacute;tait appel&eacute;e "Parole de Dieu"<br/>
+				<span class="souligne">Luc 5:1</span>&nbsp;<span class="citation">La foule se pressait autour de Lui (J&eacute;sus) pour entendre la parole de Dieu. <a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte4'); return false;">[contexte]</a></span>
+				Voir <a class="lien" href="http://www.info-bible.org/lsg/52.1Thessaloniciens.html#2.13" target="_blank">1Th 2:13</a><br/>
+				<div class="contexteBiblique" id="contexte4">
+					Luc 4<br/>
+						43. Mais il leur dit: Il faut aussi que j'annonce aux autres villes la bonne nouvelle du royaume de Dieu; car c'est pour cela que j'ai été envoyé.<br/>
+						44. Et il prêchait dans les synagogues de la Galilée.<br/>
+					Luc 5<br/>
+						<span class="gras">1. Comme Jésus se trouvait auprès du lac de Génésareth, et que la foule se pressait autour de lui pour entendre la parole de Dieu,</span><br/>
+						2. il vit au bord du lac deux barques, d'où les pêcheurs étaient descendus pour laver leurs filets.<br/>
+						3. Il monta dans l'une de ces barques, qui était à Simon, et il le pria de s'éloigner un peu de terre. Puis il s'assit, et de la barque il enseignait la foule.
+				</div>
+				Les actes des ap&ocirc;tres le confirment:<br/>
+				<span class="souligne">Actes 6:7</span>&nbsp;<span class="citation">La parole de Dieu se r&eacute;pandait de plus en plus, le nombre des disciples augmentait beaucoup &agrave; J&eacute;rusalem.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte5'); return false;">[contexte]</a></span> (Voir <a class="lien" href="http://www.info-bible.org/lsg/44.Actes.html#8.14" target="_blank">Act 8:14</a>)
+				<div class="contexteBiblique" id="contexte5">
+					Actes 6
+					5. Cette proposition plut à toute l'assemblée. Ils élurent Étienne, homme plein de foi et d'Esprit Saint, Philippe, Prochore, Nicanor, Timon, Parménas, et Nicolas, prosélyte d'Antioche.<br/>
+					6. Ils les présentèrent aux apôtres, qui, après avoir prié, leur imposèrent les mains.<br/>
+					<span class="gras">7. La parole de Dieu se répandait de plus en plus, le nombre des disciples augmentait beaucoup à Jérusalem, et une grande foule de sacrificateurs obéissaient à la foi.</span><br/>
+					8. Étienne, plein de grâce et de puissance, faisait des prodiges et de grands miracles parmi le peuple.<br/>
+					9. Quelques membres de la synagogue dite des Affranchis, de celle des Cyrénéens et de celle des Alexandrins, avec des Juifs de Cilicie et d'Asie, se mirent à discuter avec lui;
+				</div>
+				<br/>
+				Que faut-il entendre par inspiration?<br/>
+				Dieu, par le Saint Esprit, a guid&eacute;, inspir&eacute; les diff&eacute;rents auteurs de la Biblejusque dans le choix des expressions, sans pour autant annihiler leur personnalit&eacute; et leur talent litt&eacute;raire.<br/>
+				<span class="souligne">2Tim 3:16</span>&nbsp;<span class="citation">Toute ecriture est inspir&eacute;e de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte6'); return false;">[contexte]</a></span>
+				Voir aussi <a class="lien" href="http://www.info-bible.org/lsg/61.2Pierre.html#1.20" target="_blank">2 Pierre 1:20-21</a>
+				<div class="contexteBiblique" id="contexte6">
+					2 Timoth&eacute;e<br/>
+						14. Toi, demeure dans les choses que tu as apprises, et reconnues certaines, sachant de qui tu les as apprises;<br/>
+						15. dès ton enfance, tu connais les saintes lettres, qui peuvent te rendre sage à salut par la foi en Jésus Christ.<br/>
+						<span class="gras">16. Toute Écriture est inspirée de Dieu, et utile pour enseigner, pour convaincre, pour corriger, pour instruire dans la justice,</span><br/>
+						17. afin que l'homme de Dieu soit accompli et propre à toute bonne oeuvre.
+				</div>
+				<br/>
+				<br/>
+			</div>
+			<span class="chapitre1">La Bible est la parole de Dieu</span><br/>
+			<div class="chapitre1">
+				<ul>
+					<li>Vivante: <br/>
+						<span class="souligne">Heb 4:12</span>&nbsp;<span class="citation">car la Parole de Dieu est vivante et efficace, plus tranchante qu'une &eacute;p&eacute;e quelconque &agrave; deux tranchants, p&eacute;n&eacute;trante jusqu'&agrave; partager &acirc;me et esprit, jointures et moelles, elle juge les sentiments et les pens&eacute;es du coeur.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte7'); return false;">[contexte]</a></span><br/>
+						<div class="contexteBiblique" id="contexte7">
+							H&eacute;breux 4.<br/>
+								10. Car celui qui entre dans le repos de Dieu se repose de ses oeuvres, comme Dieu s'est reposé des siennes.<br/>
+								11. Efforçons-nous donc d'entrer dans ce repos, afin que personne ne tombe en donnant le même exemple de désobéissance.<br/>
+								<span class="gras">12. Car la parole de Dieu est vivante et efficace, plus tranchante qu'une épée quelconque à deux tranchants, pénétrante jusqu'à partager âme et esprit, jointures et moelles; elle juge les sentiments et les pensées du coeur.</span><br/>
+								13. Nulle créature n'est cachée devant lui, mais tout est à nu et à découvert aux yeux de celui à qui nous devons rendre compte.<br/>
+								14. Ainsi, puisque nous avons un grand souverain sacrificateur qui a traversé les cieux, Jésus, le Fils de Dieu, demeurons fermes dans la foi que nous professons.
+						</div>
+						Un passage d'un livre peut nous interpeller, mais la Bible n'a pas son pareil.
+					</li>
+					<li>Elle donne la vie<br/>
+						<span class="souligne">1 Pierre 1:23</span>&nbsp;<span class="citation">Vous avez &eacute;t&eacute; r&eacute;g&eacute;n&eacute;r&eacute;s, non par une semence corruptible, mais par une semence incorruptible, par la parole vivante et permanente de Dieu.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte8'); return false;">[contexte]</a></span>
+						<div class="contexteBiblique" id="contexte8">
+							1 Pierre 1<br/>
+								21. qui par lui croyez en Dieu, lequel l'a ressuscité des morts et lui a donné la gloire, en sorte que votre foi et votre espérance reposent sur Dieu.<br/>
+								22. Ayant purifié vos âmes en obéissant à la vérité pour avoir un amour fraternel sincère, aimez-vous ardemment les uns les autres, de tout votre coeur,<br/>
+								<span class="gras">23. puisque vous avez été régénérés, non par une semence corruptible, mais par une semence incorruptible, par la parole vivante et permanente de Dieu.</span><br/>
+								24. Car Toute chair est comme l'herbe, Et toute sa gloire comme la fleur de l'herbe. L'herbe sèche, et la fleur tombe;<br/>
+								25. Mais la parole du Seigneur demeure éternellement. Et cette parole est celle qui vous a été annoncée par l'Évangile.
+						</div>
+					</li>
+					<li>Elle nourit<br/>
+						<span class="souligne">1Pierre 2:2</span>&nbsp;<span class="citation">D&eacute;sirez comme des enfants nouveau-n&eacute;s le lait spirituel et pur, afin que par lui vous croissiez pour le Salut.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte9'); return false;">[contexte]</a></span><br/>
+						<div class="contexteBiblique" id="contexte9">
+							1 Pierre 2<br/>
+								1. Rejetant donc toute malice et toute ruse, la dissimulation, l'envie, et toute médisance,<br/>
+								<span class="gras">2. désirez, comme des enfants nouveau-nés, le lait spirituel et pur, afin que par lui vous croissiez pour le salut,</span><br/>
+								3. si vous avez goûté que le Seigneur est bon.<br/>
+								4. Approchez-vous de lui, pierre vivante, rejetée par les hommes, mais choisie et précieuse devant Dieu;<br/>
+								5. et vous-mêmes, comme des pierres vivantes, édifiez-vous pour former une maison spirituelle, un saint sacerdoce, afin d'offrir des victimes spirituelles, agréables à Dieu par Jésus Christ.
+						</div>
+						L'Ecriture est &agrave; la fois ce qui engendre la vie et ce qui la nourrit.Par elle nous naissons spirituellement, et par elle nous sommes nourris jusqu'&agrave; la maturit&eacute;
+					</li>
+				</ul>
+				<br/>
+				<br/>
+			</div>
+			<span class="chapitre1">Pourquoi "Testament"</span><br/>
+			<div class="chapitre1">
+				A la fin du IV&egrave; si&egrave;cle, Saint J&eacute;rome traduit la Bible en latin. Elle portera le nom de "Vulgate".<br/>
+				Dans le grec, le mot "alliance" (sous entendu "avec Dieu) se dit diath&egrave;k&eacute;. Il choisira alors d'utiliser l'&eacute;quivalent latin "testamentum" ce qui donnera plus tard en fran&ccedil;ais "testament". C'est pour cela que nous parlons d'ancien et de nouveau testament. En r&eacute;alit&eacute;, nous devrions parler d'ancienne et de nouvelle alliance.
+				<br/>
+				<br/>
+			</div>
+			<span class="chapitre1">La Bible, c'est deux alliances</span><br/>
+			<div class="chapitre1">
+				Comme on vient de l'&eacute;voquer, il y a deux alliances.<br/>
+				<span class="souligne">heb 8:7</span>&nbsp;<span class="citation">si la premi&egrave;re alliance avait &eacute;t&eacute; sans d&eacute;faut, il n'aurait pas &eacute;t&eacute; n&eacute;cessaire de la remplacer par une seconde.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte10'); return false;">[contexte]</a></span>
+				<div class="contexteBiblique" id="contexte10">
+					hebreux 8<br/>
+						5. (lesquels célèbrent un culte, image et ombre des choses célestes, selon que Moïse en fut divinement averti lorsqu'il allait construire le tabernacle: Aie soin, lui fut-il dit, de faire tout d'après le modèle qui t'a été montré sur la montagne).<br/>
+						6. Mais maintenant il a obtenu un ministère d'autant supérieur qu'il est le médiateur d'une alliance plus excellente, qui a été établie sur de meilleures promesses.<br/>
+						<span class="gras">7. En effet, si la première alliance avait été sans défaut, il n'aurait pas été question de la remplacer par une seconde.</span><br/>
+						8. Car c'est avec l'expression d'un blâme que le Seigneur dit à Israël: Voici, les jours viennent, dit le Seigneur, Où je ferai avec la maison d'Israël et la maison de Juda Une alliance nouvelle,<br/>
+						9. Non comme l'alliance que je traitai avec leurs pères, Le jour où je les saisis par la main Pour les faire sortir du pays d'Égypte; Car ils n'ont pas persévéré dans mon alliance, Et moi aussi je ne me suis pas soucié d'eux, dit le Seigneur.
+				</div>
+				<br/>
+				<span class="chapitre2">1. La loi</span><br/>
+				<div class="chapitre2">
+					Le d&eacute;calogue: <a class="lien" href="http://www.info-bible.org/lsg/02.Exode.html#20.1" target="_blank">Exode 20: 1-17</a><br/>
+					<span class="gras">Elle ne peut &ecirc;tre respect&eacute;e.</span>&nbsp;<span class="souligne">Rom 8:3</span>&nbsp;<span class="citation">Car, chose impossible &agrave; la loi, parce que la chair la rendait sans force<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte11'); return false;">[contexte]</a></span>
+					<div class="contexteBiblique" id="contexte11">
+						Romains 8<br/>
+							1. Il n'y a donc maintenant aucune condamnation pour ceux qui sont en Jésus Christ.<br/>
+							2. En effet, la loi de l'esprit de vie en Jésus Christ m'a affranchi de la loi du péché et de la mort.<br/>
+							<span class="gras">3. Car-chose impossible à la loi, parce que la chair la rendait sans force, -Dieu a condamné le péché dans la chair, en envoyant, à cause du péché, son propre Fils dans une chair semblable à celle du péché,</span><br/>
+							4. et cela afin que la justice de la loi fût accomplie en nous, qui marchons, non selon la chair, mais selon l'esprit.<br/>
+							5. Ceux, en effet, qui vivent selon la chair, s'affectionnent aux choses de la chair, tandis que ceux qui vivent selon l'esprit s'affectionnent aux choses de l'esprit.
+					</div>
+					<br/>
+					<span class="souligne">Jacq 2:10</span>&nbsp;<span class="citation">Car quiconque observe toute la loi, mais p&egrave;che contre un seul commandement, devient coupable de tous.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte12'); return false;">[contexte]</a></span>
+					<div class="contexteBiblique" id="contexte12">
+						Jacques 2<br/>
+							8. Si vous accomplissez la loi royale, selon l'Écriture: Tu aimeras ton prochain comme toi-même, vous faites bien.<br/>
+							9. Mais si vous faites acception de personnes, vous commettez un péché, vous êtes condamnés par la loi comme des transgresseurs.<br/>
+							<span class="gras">10. Car quiconque observe toute la loi, mais pèche contre un seul commandement, devient coupable de tous.</span><br/>
+							11. En effet, celui qui a dit: Tu ne commettras point d'adultère, a dit aussi: Tu ne tueras point. Or, si tu ne commets point d'adultère, mais que tu commettes un meurtre, tu deviens transgresseur de la loi.<br/>
+							12. Parlez et agissez comme devant être jugés par une loi de liberté,
+					</div>
+					<br/>
+					<span class="gras">Le salut dans la Loi:</span><br/>
+					<span class="souligne">Lev 18:5</span>&nbsp;<span class="citation">Vous observerz mes lois et mes ordonnances, l'homme qui les mettra en pratique vivra par elles. Je suis l'Eternel.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte13'); return false;">[contexte]</a></span>
+					<div class="contexteBiblique" id="contexte13">
+						Levitiques 18<br/>
+							3. Vous ne ferez point ce qui se fait dans le pays d'Égypte où vous avez habité, et vous ne ferez point ce qui se fait dans le pays de Canaan où je vous mène: vous ne suivrez point leurs usages.<br/>
+							4. Vous pratiquerez mes ordonnances, et vous observerez mes lois: vous les suivrez. Je suis l'Éternel, votre Dieu.<br/>
+							<span class="gras">5. Vous observerez mes lois et mes ordonnances: l'homme qui les mettra en pratique vivra par elles. Je suis l'Éternel.</span><br/>
+							6. Nul de vous ne s'approchera de sa parente, pour découvrir sa nudité. Je suis l'Éternel.<br/>
+							7. Tu ne découvriras point la nudité de ton père, ni la nudité de ta mère. C'est ta mère: tu ne découvriras point sa nudité.
+					</div>
+					<br/>
+				</div>
+				<br/>
+				<span class="chapitre2">2. La gr&acirc;ce</span><br/>
+				<div class="chapitre2">
+					<span class="souligne">Jean 1:17</span>&nbsp;<span class="citation">Car la loi a &eacute;t&eacute; donn&eacute;e par Mo&iuml;se, la gr&acirc;ce et la v&eacute;rit&eacute; sont venues par J&eacute;sus-Christ.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte14'); return false;">[contexte]</a></span>
+					<div class="contexteBiblique" id="contexte14">
+						Jean 1<br/>
+							15. Jean lui a rendu témoignage, et s'est écrié: C'est celui dont j'ai dit: Celui qui vient après moi m'a précédé, car il était avant moi.<br/>
+							16. Et nous avons tous reçu de sa plénitude, et grâce pour grâce;<br/>
+							<span class="gras">17. car la loi a été donnée par Moïse, la grâce et la vérité sont venues par Jésus Christ.</span><br/>
+							18. Personne n'a jamais vu Dieu; le Fils unique, qui est dans le sein du Père, est celui qui l'a fait connaître.<br/>
+							19. Voici le témoignage de Jean, lorsque les Juifs envoyèrent de Jérusalem des sacrificateurs et des Lévites, pour lui demander: Toi, qui es-tu?
+					</div>
+					Le salut:<br/>
+					<span class="souligne">Eph 2:8</span>&nbsp;<span class="citation">Car c'est par la gr&acirc;ce que vous &ecirc;tes sauv&eacute;s, par le moyen de la foi. Et cela ne vient pas de vous, c'est un don de Dieu.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte15'); return false;">[contexte]</a></span>&nbsp; Voir <a class="lien" href="http://www.info-bible.org/lsg/44.Actes.html#15.11" target="_blank">Act 15:11</a><br/>
+					<div class="contexteBiblique" id="contexte15">
+						Ephesiens 2<br/>
+							6. il nous a ressuscités ensemble, et nous a fait asseoir ensemble dans les lieux célestes, en Jésus Christ,<br/>
+							7. afin de montrer dans les siècles à venir l'infinie richesse de sa grâce par sa bonté envers nous en Jésus Christ.<br/>
+							<span class="gras">8. Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu.</span><br/>
+							9. Ce n'est point par les oeuvres, afin que personne ne se glorifie.<br/>
+							10. Car nous sommes son ouvrage, ayant été créés en Jésus Christ pour de bonnes oeuvres, que Dieu a préparées d'avance, afin que nous les pratiquions.
+					</div>
+					<span class="souligne">Rom 3:24</span>&nbsp;<span class="citation">Ils sont gratuitement justifi&eacute; par sa gr&acirc;ce, par le moyen de redemption qui est en Jesus-Christ.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte16'); return false;">[contexte]</a></span>
+					<div class="contexteBiblique" id="contexte16">
+						Romains 3<br/>
+							22. justice de Dieu par la foi en Jésus Christ pour tous ceux qui croient. Il n'y a point de distinction.<br/>
+							23. Car tous ont péché et sont privés de la gloire de Dieu;<br/>
+							<span class="gras">24. et ils sont gratuitement justifiés par sa grâce, par le moyen de la rédemption qui est en Jésus Christ.</span><br/>
+							25. C'est lui que Dieu a destiné, par son sang, à être, pour ceux qui croiraient victime propitiatoire, afin de montrer sa justice, parce qu'il avait laissé impunis les péchés commis auparavant, au temps de sa patience, afin, dis-je,<br/>
+							26. de montrer sa justice dans le temps présent, de manière à être juste tout en justifiant celui qui a la foi en Jésus.
+					</div>
+					Utilit&eacute; de la loi:<br/>
+					<span class="souligne">Gal 3:24</span>&nbsp;<span class="citation">Ainsi la loi a &eacute;t&eacute; comme un pr&eacute;cepteur pour nous conduire &agrave; Christ, afin que nous soyons justifi&eacute; par la foi.<a href="javascript:void(0);" class="contexte" onclick="montrerContexte('contexte17'); return false;">[contexte]</a></span>&nbsp; Voir aussi <a class="lien" href="http://www.info-bible.org/lsg/45.Romains.html#5.20" target="_blank">Rom 5:20</a><br/>
+					<div class="contexteBiblique" id="contexte17">
+						Galates 3<br/>
+							22. Mais l'Écriture a tout renfermé sous le péché, afin que ce qui avait été promis fût donné par la foi en Jésus Christ à ceux qui croient.<br/>
+							23. Avant que la foi vînt, nous étions enfermés sous la garde de la loi, en vue de la foi qui devait être révélée.<br/>
+							<span class="gras">24. Ainsi la loi a été comme un pédagogue pour nous conduire à Christ, afin que nous fussions justifiés par la foi.</span><br/>
+							25. La foi étant venue, nous ne sommes plus sous ce pédagogue.<br/>
+							26. Car vous êtes tous fils de Dieu par la foi en Jésus Christ;
+					</div>
+				</div>
+			</div>
+		</div>
+
+		(...)
+	</div>
+
+	<?php
+	include('./import/_piedPage.php');
+	?>
+
+</body>
+</html>

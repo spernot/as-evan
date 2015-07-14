@@ -1,0 +1,51 @@
+div.photoGauche {
+
+/*	width: 5%;*/
+
+	float: left;
+	display: inline;
+	clear: left;
+
+	background-color: #FFFFFF;
+}
+
+span.typeContenuMultimedia {
+	display: inline;
+	width: 85px;
+	background-color: #75BC29; 
+	color: white; 
+	font-size: 0.5em; 
+	margin-right: 20px; 
+	margin-top: 10px; 
+	padding-left: 1.2em; 
+	padding-right: 1.2em;	
+/*	width: 100%;*/
+}
+
+span.titreContenuMultimedia {
+	display: inline;
+}
+
+div.presentationDroite {
+	/* border: 10px solid white; */
+
+
+	width: 85%;
+
+	float: right;
+	display: inline;
+	clear: right;
+
+	background-color: #FFFFFF;
+}
+
+div.contenu {
+	clear: both;
+	margin-top: 3px;
+}
+
+table.fichiersConference {
+	border: 0px;
+	border-collapse: collapse;
+/*	width: 100%;*/
+}

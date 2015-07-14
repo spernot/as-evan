@@ -1,0 +1,7 @@
+SetEnv PHP_VER 5_3
+Options -Indexes
+ErrorDocument 404 /erreurs/page404.htm
+ErrorDocument 403 /erreurs/page403.htm
+ErrorDocument 500 /erreurs/page500.htm
+
+AddType text/x-component .htc
