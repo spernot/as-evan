@@ -35,7 +35,7 @@
 		
 		// vérification de la taille de la liste des fichiers dispo
 		if (count($conference->getListeFichiers()) == 0) {
-			echo("Les fichiers seront bientôt disponibles...");
+			echo("Les fichiers audio seront bientôt disponibles...");
 		}
 		
 		
