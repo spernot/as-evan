@@ -39,6 +39,12 @@
 			return $this->attributs["type"];
 		}
 		
+		function getCommentaire() {
+			if (isset($this->attributs["commentaire"]))
+				return $this->attributs["commentaire"];
+			return null;
+		}
+		
 		function __toString() {
 			return '[' . $this->getURI() . ', '
 			. $this->getNomFichier() . ', '

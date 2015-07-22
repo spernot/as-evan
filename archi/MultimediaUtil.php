@@ -50,7 +50,13 @@
 			else
 				echo("<tr class='impaire'>");
 						
-			echo("<td style='width:80%'>".$attributsFichier->getLibelle()."&nbsp;</td>");
+			echo("<td style='width:80%'>".$attributsFichier->getLibelle()."&nbsp;");
+			if (null !== $attributsFichier->getCommentaire()) {
+				echo("<br/>");
+				echo("<span style=\"font-weight:normal\">Note: ".$attributsFichier->getCommentaire()."</span>");
+			}
+			
+			echo("</td>");
 			echo("<td>");
 // 			echo("<object type=\"application/x-shockwave-flash\" 
 // 					data=\"".getAliasURI()."/librairieWeb/dewplayer/dewplayer.swf?mp3=".$lienRessource."\"  
