@@ -1,19 +1,39 @@
+#- News1:
+#  titre: Informations sur la formation
+#  dateDebut: 2015-12-11
+#  dateFin: 2016-04-30
+#  image: institut.png
+#  imageInformation: institutInfo.png
+#  important: non
+#	resume: Amis musiciens ou chanteurs !<br/>Vous aimez la musique, et vous avez à coeur de témoigner de votre foi par ce moyen ?<br/>L’ASSEMBLÉE ÉVANGÉLIQUE DE NEUDORF organise du 22 au 24 février 2013, un WEEKEND MUSICAL, avec la participation de Jeanne Colas, missionnaire en France et musicienne de formation.
+#  include: _formInstitut012015.php
+#  questions:
+#    - {q: "Pourquoi", rimg: pourquoiInstitut.png}
+#    - {q: "Enseignement", rimg: enseignementInstitut.png}
+#    - {q: "Conditions requises", rimg: conditionInstitut.png}
+#    - {q: "Lieu", rimg: lieuInstitut.png}
+#    - {q: "Partenariat", rimg: partenariatInstitut.png}
+#    - {q: "Travail personnel", rimg: travailInstitut.png}
+#    - {q: "Coût", rimg: coutInstitut.png}
+#  fichiersAttaches:
+#    - {titre: "pouet pouet", url: "/PDF/news/invitationWEMusical2013.pdf"}
+
 - News1:
   titre: Informations sur la formation
-  dateDebut: 2015-12-11
-  dateFin: 2016-04-30
-  image: institut.png
-  imageInformation: institutInfo.png
+  dateDebut: 2016-05-05
+  dateFin: 2016-08-10
+  image: evangelisation082016.png
+  imageInformation: infoEvangelisation082016.png
   important: non
 #	resume: Amis musiciens ou chanteurs !<br/>Vous aimez la musique, et vous avez à coeur de témoigner de votre foi par ce moyen ?<br/>L’ASSEMBLÉE ÉVANGÉLIQUE DE NEUDORF organise du 22 au 24 février 2013, un WEEKEND MUSICAL, avec la participation de Jeanne Colas, missionnaire en France et musicienne de formation.
-  include: _formInstitut012015.php
-  questions:
-    - {q: "Pourquoi", rimg: pourquoiInstitut.png}
-    - {q: "Enseignement", rimg: enseignementInstitut.png}
-    - {q: "Conditions requises", rimg: conditionInstitut.png}
-    - {q: "Lieu", rimg: lieuInstitut.png}
-    - {q: "Partenariat", rimg: partenariatInstitut.png}
-    - {q: "Travail personnel", rimg: travailInstitut.png}
-    - {q: "Coût", rimg: coutInstitut.png}
+  include: _formEvan082016.php
+#  questions:
+#    - {q: "Pourquoi", rimg: pourquoiInstitut.png}
+#    - {q: "Enseignement", rimg: enseignementInstitut.png}
+#    - {q: "Conditions requises", rimg: conditionInstitut.png}
+#    - {q: "Lieu", rimg: lieuInstitut.png}
+#    - {q: "Partenariat", rimg: partenariatInstitut.png}
+#    - {q: "Travail personnel", rimg: travailInstitut.png}
+#    - {q: "Coût", rimg: coutInstitut.png}
 #  fichiersAttaches:
 #    - {titre: "pouet pouet", url: "/PDF/news/invitationWEMusical2013.pdf"}
