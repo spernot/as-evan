@@ -66,7 +66,7 @@ $tableauNewsActives = $contexteUtlisateur->getNewsActives();
 							// on boucle sur les fichiers attachés à la news 
 							foreach ($news->getFichiersAttaches() as $fic) {
 								echo("<span style='font-weight: bold;'>".$fic->getTitre().":&nbsp;</span>");
-								echo("Cliquez<a href='".getAliasURI().$fic->getUrlFichier()."' class='lienQR' target='_blank'>&nbsp;ici</a>");
+								echo("<br/>Cliquez<a href='".getAliasURI().$fic->getUrlFichier()."' class='lienQR' target='_blank'>&nbsp;ici</a>");
 								echo("<br/>");
 							}
 							?>

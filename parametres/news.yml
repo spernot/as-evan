@@ -35,5 +35,5 @@
 #    - {q: "Partenariat", rimg: partenariatInstitut.png}
 #    - {q: "Travail personnel", rimg: travailInstitut.png}
 #    - {q: "Coût", rimg: coutInstitut.png}
-#  fichiersAttaches:
-#    - {titre: "pouet pouet", url: "/PDF/news/invitationWEMusical2013.pdf"}
+  fichiersAttaches:
+    - {titre: "Pour plus d'information", url: "/PDF/news/campEvangelisation082016.pdf"}
